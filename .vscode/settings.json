@@ -1,0 +1,19 @@
+{
+	"terminal.integrated.env.windows": {
+		"PATH": "${workspaceFolder}\\..\\MinGW\\bin;${env:PATH}"
+	},
+	"files.associations": {
+		"allegro_acodec.h": "c",
+		"stdbool.h": "c",
+		"algif.h": "c",
+		"allegro_audio.h": "c",
+		"atomic": "c",
+		"*.tcc": "c",
+		"iomanip": "c",
+		"istream": "c",
+		"ostream": "c",
+		"allegro_primitives.h": "c",
+		"rectangle.h": "c",
+		"scenemanager.h": "c"
+	}
+}
