@@ -116,7 +116,6 @@ void Monster_draw(Elements *self)
 {
     // with the state, draw corresponding image
     Monster *mons = ((Monster *)(self->pDerivedObj));
-    //Hero *chara = ((Hero *)(self->pDerivedObj));
     ALLEGRO_BITMAP *frame = algif_get_bitmap(mons->gif_status[mons->monstate], al_get_time());
     if (frame)
     {
